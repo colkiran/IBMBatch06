@@ -1,0 +1,192 @@
+Python
+------
+Java and Dotnet
+
+C and C++
+---------
+int i;
+string s;
+
+Python
+------
+i = 100
+line termination is enter key(return key)
+----
+----
+after few lines of code
+i = "hello"
+----
+----
+i = True	# i is a variable of type Boolean
+
+Python is an open source
+------------------------
+Guido Van Russum - founder of Python
+
+Desktop App 	-	Python + TK(tool kit) = TKinter
+
+Web App		-	MVC, REST API - Flask, Django, Fast
+
+Mobile	App	-	Kivy
+
+Testing		-	Unit Test, Pytest, Robot Framework, Selenium
+
+Automation	-	paramiko
+
+Web Scrapping	-	request, beautiful soup
+
+Data Science
+Data Analytics	-	Numpy, Pandas, Matplotlib and Seaborn
+
+Data Engineering - 	ETL, Spark, Kafka, Scala, Pig, Hive
+
+ML and AI
+---------
+
+Versions in python
+------------------
+2.x and 3.x
+
+2.x
+---
+print "hello"
+
+3.x
+---
+print("hello")
+
+Python Flavours
+---------------
+1. CPython	-	currently using
+
+2. Jython	-	Python code - Java code
+
+3. Iron Python	-	Dotnet Libraries
+
+IDE - Editor
+------------
+1. Notepad++
+
+2. IDLE - Integrate Development Environment
+
+3. PyCharm CE - IntelliJ - community edition
+
+4. VS Code CE
+
+5. Eclipse (patch)
+
+6. Sublime text
+
+7. Jupyter Notebook
+
+8. Spyder
+
+9. Google Colabs
+
+
+www.python.org - 3.12.x (Windows, Linux, Mac)
+
+PyCharm - community edition
+
+Python
+------
+1. SDK - write python scripts
+
+2. IDLE - UI to write codes
+
+3. Python Shell - write small scripts and test it
+
+
+Data Types
+----------
+Number
+  integer
+  long		-	82348293749128103L
+  float
+  complex
+
+String
+
+Overloaded operators
+--------------------
++ -> addition and concatenation
+
+* -> multiplication and print a string n number of times
+
+os module
+---------
+
+-------------------------------------------------------------------
+reload function
+
+imp module -> reload()
+
+latest changes
+--------------
+importlib module -> reload()
+
+import importlib (consider it has 30 functions)
+all 30 functions will be imported 
+
+to import one function from the library
+
+from importlib import reload
+
+1. only reload will be imported 
+
+2. reload will become local to the environment - no need of using the module name in front of the function
+
+Creating a Project in PyCharm or other IDE's
+---------------------------------------------
+1. install virtualenv if not found
+	pip install virtualenv
+
+2. creates a virtual environment
+
+
+
+Library emojis -> class emojis
+
+del -f 
+
+rm -rf ibmVrEnv
+
+rmdir /s ibmVrEnv
+-------------------------------------------------
+
+#! - shebang - used to specify the path of python.exe
+
+
+print("hello world")
+
+line termination is by enter key (return key)
+
+Coding Rules
+------------
+
+comments
+--------
+# - is the only comment present in python and it is a single line comment
+
+strings 
+-------
+single line strings are enclosed in " " or ' '
+
+multi line strings are enclosed in """  """ or ''''  ''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
