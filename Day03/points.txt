@@ -1,0 +1,115 @@
+1. Write a code to check if the given string is a palindrome use string indexing
+
+str = "abba"
+if str == str[::-1]:
+    print("string is palindrome")
+else:
+    print("string is not a palindrome")
+
+
+class
+  constructor
+  instance variable
+  methods 
+    a. getter method - display the value of instance variables
+    b. setter method - change the value of instance variables
+
+
+class Employee:
+
+   def __init__(self, name):
+       self.name = name
+
+   # getter method
+   def disp_details(self):
+       print(f"Name is {self.name}")
+
+   # setter method
+   def chnge_name(self, nm)
+       self.name = nm
+
+emp1 = Employee("Mark")
+
+print(emp1.disp_detais())	=> Mark
+
+# change the name of the person
+emp1.chnge_name("Kevin")
+
+print(emp1.disp_detais())	=> Kevin
+
+str objects  = strings that we create
+
+str class will not have a setter method in it - hence we say strings are immutable
+
+ERROR - string object does not support item assignment
+
+
+Functions used to manipulate strings
+------------------------------------
+'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill'
+
+Python Data Structures
+----------------------
+1. list
+2. Dictionaries
+3. Tuples
+4. Set
+
+Lists
+-----
+Lists are similar to arrays
+
+
+what are arrays?
+
+1. collection of homogenous data
+
+2. memory allocation is contagious
+
+
+Lists in Python
+----------------
+1. its a collection of heterogenous data
+
+2. memory allocation is not contagious
+
+3. it is a ordered collection  
+
+4. it is mutable
+
+5. lists are enclosed in [ ]
+
+
+functions to manipulate a  list
+-------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+add values into a list
+----------------------
+1. append
+2. extend
+3. insert
+
+delete values from a list
+-------------------------
+1. remove
+2. pop
+3. clear
+
+
+1. index
+2. count
+3. copy
+4. sort
+5. reverse
+
+
+
+
+
+
+
+
+
+
+
