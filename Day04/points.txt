@@ -1,0 +1,47 @@
+Copy Function
+-------------
+
+Dictionary
+----------
+1. associative arrays
+
+index =  0    1    2    3    4    5
+array = 'a', 'b', 'c', 'd', 'e', 'f'
+
+ass_arr = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+keys 	- 0, 1, 2, 3, 4, 5
+values	- 'a', 'b', 'c', 'd', 'e', 'f'
+
+2. keys are user defined and they are unique
+
+3. dictionaries are unordered collection - 1, 2, 3, 4, 5 => 3, 2, 4, 5, 1
+
+4. it is mutable
+
+5. it is enclosed in  {k: v, k: v}
+
+Functions to manipulate dictionaries
+------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+	
+
+Tuple
+-----
+
+TUPLES ARE IMMUTABLE LISTS
+--------------------------
+
+Set
+---
+1. unordered collection
+2. it is not sub scriptable (cannot be indexed)
+3. its elements are unique
+4. it is mutable
+5. it is enclosed in {1, 2, 3, 4}
+
+
+
+
+
+
