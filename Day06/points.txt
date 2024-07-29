@@ -1,0 +1,65 @@
+Scope of a variable
+--------------------
+Variables declared inside the function is not accessible outside the function and variables declared outside the function is not accessible inside the function.
+
+1. global
+2. local
+3. non local
+
+Accessibility - changing the value of the variable
+
+Decorator
+---------
+a. nested functions
+b. closures
+c. HOF
+d. Decorator
+
+
+Oops
+----
+1. encapsulation	- 	
+2. inheritance		- reusability
+3. abstraction		- 
+4. polymorphism		- 	
+
+
+
+
+Banking
+--------
+With_Draw
+---------
+90's - 	Cheque 
+	Demand Draft
+
+2000 - 2003 
+-----------
+Debit Card - DBCrd(cheque)
+
+2005 -2006 - Net Banking(DBcrd)
+
+2011 - 2013 - UPI(Net Banking)
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
