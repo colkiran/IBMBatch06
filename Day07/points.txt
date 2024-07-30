@@ -1,0 +1,59 @@
+Class Attributes or Class Variables
+-----------------------------------
+what are class variables?
+
+instance variables vs class variables
+-------------------------------------
+1. instance variables are accessible by objects
+2. its values will vary for different objects
+
+
+class variables are declared inside the class and outside the methods
+class variables are accessed with class name
+class variables are static
+values of class variable will be same across objects
+
+
+__init___	= Double Under Score = Dunder_init
+
+
+Class Method
+------------
+class methods can create an object of a class
+we can also call it as a factory
+
+
+Static Method
+-------------
+static method should called using class name
+
+def fun()
+
+self - Object
+cls  - class
+
+
+Operator Overloading
+--------------------
++ 	=	__add__	 = magic methods
+
+
+-----------------------------
+we need to overload two comparison operator
+
+1. __eq__ (mandatory)
+
+2. __gt__ (optional, it can be any operator)
+
+
+write a code to overload all arithmetic operators
+
+1. sum
+2. diff
+3. product
+4. divide
+5. floor division
+
+getter, setter and delete methods to properties
+
+
