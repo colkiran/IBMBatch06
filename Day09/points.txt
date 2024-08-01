@@ -1,0 +1,49 @@
+
+move the file handle from one point to another
+
+FL.seek(offset, Whence)
+
+offset = no of bytes
+
+Whence = 0   - BOF
+	 1   - Current Position
+  	 2   - EOF
+
+filessize - 2500 bytes
+
+position = FL.seek(150, 0)
+
+position = FL.seek(150, 1)     - 300
+
+position = FL.seek(150, 2)     - 2650
+
+
+CSV file
+--------
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+
+sqlite3 - mock database
+-----------------------
+
+1. create a database (file database)
+
+
+Flask and REST API
+------------------
+
+
+
+
+
+
+
+
