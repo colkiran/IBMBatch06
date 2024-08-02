@@ -1,0 +1,89 @@
+products = {
+    'pepsi': {'item': '2 ltr bottle', 'price': 120, 'qty': 250},
+
+
+    'coke': {'item': '500 ml bottle', 'price': 50, 'qty': 500, 
+			'cat': 'baverage'},
+
+
+
+    'thumbs_up': {'item': '300 ml can', 'price': 65, 'qty': 150}
+}
+
+
+REST API
+--------
+get - used to request data from a specified resource
+
+put - used to update resources or create a new resource if it does not exist at specified url
+
+patch - used to apply partial modification to a resource
+
+post - used to submit data to be processed to a specific resource
+
+delete - used for removal of  resource in a specified url
+
+
+
+Threads
+-------
+code will execute sequentially (synchronously)
+
+line -1
+line -2   - task of checking if the log file exists in the server (3 secs)
+	    same task repeated for five machines	
+line -3
+line -4
+
+Multithreading is not supported in python - because GIL - Global Interpreter Lock
+
+Exceptions
+----------
+Does not stop the execution of the code.
+
+try:
+
+  error prone code
+
+exception ZeroDivisionError  as z:
+	print(z)
+	
+exception TypeError
+
+else:
+
+finally: Completed connecting to the database....
+
+Exception is the base class of all exception classes
+
+logging Module
+--------------
+10 - Debug
+20 - info
+30 - warning
+40 - Error
+50 - critical
+
+Numpy - Numerical Python
+------------------------
+developed in 2005 by travis oliphant
+
+numpy is 50x faster than lists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
